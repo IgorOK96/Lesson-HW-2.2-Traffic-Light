@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A4DDF262C8755F100CDA563 /* Lesson HW 2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lesson HW 2.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4DDF262C8755F100CDA563 /* Traffic Light 2.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traffic Light 2.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4DDF292C8755F100CDA563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A4DDF2B2C8755F100CDA563 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9A4DDF2D2C8755F100CDA563 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		9A4DDF272C8755F100CDA563 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A4DDF262C8755F100CDA563 /* Lesson HW 2.2.app */,
+				9A4DDF262C8755F100CDA563 /* Traffic Light 2.2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A4DDF252C8755F100CDA563 /* Lesson HW 2.2 */ = {
+		9A4DDF252C8755F100CDA563 /* Traffic Light 2.2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4DDF3A2C8755F200CDA563 /* Build configuration list for PBXNativeTarget "Lesson HW 2.2" */;
+			buildConfigurationList = 9A4DDF3A2C8755F200CDA563 /* Build configuration list for PBXNativeTarget "Traffic Light 2.2" */;
 			buildPhases = (
 				9A4DDF222C8755F100CDA563 /* Sources */,
 				9A4DDF232C8755F100CDA563 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Lesson HW 2.2";
+			name = "Traffic Light 2.2";
 			productName = "Lesson HW 2.2";
-			productReference = 9A4DDF262C8755F100CDA563 /* Lesson HW 2.2.app */;
+			productReference = 9A4DDF262C8755F100CDA563 /* Traffic Light 2.2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9A4DDF212C8755F100CDA563 /* Build configuration list for PBXProject "Lesson HW 2.2" */;
+			buildConfigurationList = 9A4DDF212C8755F100CDA563 /* Build configuration list for PBXProject "Traffic Light 2.2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A4DDF252C8755F100CDA563 /* Lesson HW 2.2 */,
+				9A4DDF252C8755F100CDA563 /* Traffic Light 2.2 */,
 			);
 		};
 /* End PBXProject section */
@@ -297,8 +297,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +306,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "IgorOK.Lesson-HW-2-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,8 +328,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,16 +337,20 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "IgorOK.Lesson-HW-2-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A4DDF212C8755F100CDA563 /* Build configuration list for PBXProject "Lesson HW 2.2" */ = {
+		9A4DDF212C8755F100CDA563 /* Build configuration list for PBXProject "Traffic Light 2.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A4DDF382C8755F200CDA563 /* Debug */,
@@ -351,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A4DDF3A2C8755F200CDA563 /* Build configuration list for PBXNativeTarget "Lesson HW 2.2" */ = {
+		9A4DDF3A2C8755F200CDA563 /* Build configuration list for PBXNativeTarget "Traffic Light 2.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9A4DDF3B2C8755F200CDA563 /* Debug */,
